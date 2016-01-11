@@ -1,0 +1,50 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+	It's pretty obvious that if something was working earlier and after making some
+changes i.e. in the new version things are not working then changes that we did
+might contain some bug .  
+
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+    Instead of remaining puzzled on what we did wrong , if we have old version 
+also with us we could either restore that and start working again from that or we 
+could also check what we did wrong in this version by taking advantage of the diff
+terminal utility .
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+	pros and cons of manually choosing when to create a commit:
+Pros :
+-> In case of auto saving some commits may not be a meaningful logical unit whereas
+   in  case of manually commiting we can rest assured of that .
+-> commit-log will get too long to search for some change .
+cons :
+-> we might forget or take too long to commit .
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+	one commit should reflect one logical change and sometimes it is that a 
+single logical change is spread across multiple files and that logical change is 
+also small enough to incorporate changes to all files into single commit . Thus git
+allows saving multiple files in single commit .
+	whereas other version control sysytems consider each file as different entities
+and a logical change is not spread across multiple files . Hence they don't allow saving
+multiple files in single commit .
+
+How can you use the commands git log and git diff to view the history of files?
+	git log command tells the commit history as it tells the commit id ,author,date,
+time,description of the commit . 
+git diff <pre commit id > <new commit id> command will tell what lines were deleted
+and inserted in this new commit . 
+
+How might using version control make you more confident to make changes that
+could break something?
+	Yes indeed it does make us more confident to make changes and experiment on things we 
+want to , as we are more safe that if it does not works out , we could still go back to the
+previous version .
+
+Now that you have your workspace set up, what do you want to try using Git for?
+  Well i don't know . But I am sure i would need this in future . so that's pretty much why i am 
+learning it .
