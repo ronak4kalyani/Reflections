@@ -1,22 +1,45 @@
 What happens when you initialize a repository? Why do you need to do it?
-	when i intialize a repository it becomes a git repository and various 
-versions of repository could be stored as i commit in order to be restored later
+	when we intialize a repository it becomes a git repository and various 
+versions of repository could be stored as we commit in order to be restored later
 if required to. If you want to track down the repository history(commit log) you
 would have to intialize the directory as the git repository .
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
+	Staging area acts as an intermediate b/w working directory and the repository.
+Before the changes are committed they are transferred to staging area.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+	we should commit once per logical change as it would help restoring to 
+previous versions if anything goes wrong in between . we can stage the changes 
+we want to commit in staging area prior to commiting . 
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+	Checking out to a differnet branch and committing there means you are trying
+to do something different than the master branch and in this case commit log of the
+two branches won't get cluttered . When you are in branch "easy-mode" git log command 
+would show commit log of branch "easy-mode" only . Thus branches are helpful in keeping
+your history organized .
 
 How do the diagrams help you visualize the branch structure?
+	Yeah , Diagrams are pretty useful to visualize the branch structure . Diagram show
+us at what commit branching happened and what commits are present in a branch . Diagram 
+helps us understand the structure of the graph .
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+	first of all branching was done in order to carry out some experimental tasks .Now 
+that experiment has gone sucessful and you want to incorporate the changes made in both 
+branches till now , then you need to perform merging . After merging there is no need of 
+two branch labels , one of them could be deleted . log will contain commits from both 
+branches interleaved and posed in the order of time . 
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+	Merging manually is generally much more tedious task than automatic but it makes more 
+sense tha automatic . automatic meging sometimes does perfect meging other times imperfect and 
+sometimes it tells that there are conflicts so it can't handle it . Examples of imperfect meging 
+could be two different implementations of same functions could be added in automatic merging .
+whereas manual always works but it's tedious for sure . 
