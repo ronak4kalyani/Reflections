@@ -9,4 +9,5 @@ Why might you want to always pull changes manually rather than having Git automa
 	Sometimes it may be that i don't want to bring all the commits made by other collaborators onto my machine because if 
 i am working on something and automatically master gets updated with remote than i would be in detached head state and i would have to create a differnt branch . or it may be that if git automatically syncs local repository with remote one then i might be in the middle of something and assume other files to wok in a certain way since files are inter-related but they get updated then it may not work and work is simply lost.
 
-
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+	branching is done when you want to try something experimental on your project and you want to be sure that your project does not break out . clones are done to bring repository to your local machine from github or from another spot in local machine. forks are made to clone the repositories from github to github . It uses someone else's project as a starting point for your idea. It is similar to cloning but different in some other aspects such as it provides a link to author of project at your forked github repository .
