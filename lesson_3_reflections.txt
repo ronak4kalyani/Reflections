@@ -11,3 +11,7 @@ i am working on something and automatically master gets updated with remote than
 
 Describe the differences between forks, clones, and branches. When would you use one instead of another?
 	branching is done when you want to try something experimental on your project and you want to be sure that your project does not break out . clones are done to bring repository to your local machine from github or from another spot in local machine. forks are made to clone the repositories from github to github . It uses someone else's project as a starting point for your idea. It is similar to cloning but different in some other aspects such as it provides a link to author of project at your forked github repository .
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+	Now that i know little bit of git and github , i would always try to make sure git or github is used whenever i collaborate because of its powers . Last sem we worked on a project and we didn't use any version control and i remember it became kind of messier of to have version names so random , and it was all confusing .
+	Without using git or github i don't know how do people collaborate . It may be that they use some other version control like svn etc . without version control collaborating and even working on your own on large projects would be harder .
