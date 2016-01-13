@@ -11,3 +11,6 @@ i am working on something and automatically master gets updated with remote than
 
 Describe the differences between forks, clones, and branches. When would you use one instead of another?
 	branching is done when you want to try something experimental on your project and you want to be sure that your project does not break out . clones are done to bring repository to your local machine from github or from another spot in local machine. forks are made to clone the repositories from github to github . It uses someone else's project as a starting point for your idea. It is similar to cloning but different in some other aspects such as it provides a link to author of project at your forked github repository .
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+	it is useful for the purposes of collaboration . It tells us in case if local branch is ahead of remote branch or it is out of sync or is up to date with remote one . so we can work out accordingly .
